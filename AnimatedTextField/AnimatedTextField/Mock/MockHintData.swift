@@ -7,7 +7,7 @@
 
 import Foundation
 
-// MARK: - Hint
+// MARK: - Hints
 
 enum MockHints {
 	static let shopping = [
@@ -31,7 +31,7 @@ enum MockHints {
 	static let numbers: [String] = (0...4).map(String.init(describing:))
 }
 
-// MARK: - Examples
+// MARK: - Mocks
 
 struct Mock {
 	let title: String

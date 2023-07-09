@@ -1,5 +1,5 @@
 //
-//  HintTextField.swift
+//  HintsTextField.swift
 //  AnimatedTextField
 //
 //  Created by Marlon Raskin on 2023-07-02.
@@ -7,19 +7,21 @@
 
 import SwiftUI
 
-struct HintTextField: View {
+struct HintsTextField: View {
 	
 	let icon: Image?
 	@Binding var text: String
 	let inactivePlaceholder: String
 	let activePlaceholder: String
 	let hints: [String]
-	let startIndex: HintCarouselView.StartIndex
+	let startIndex: HintsCarouselView.StartIndex
 	
 	let onEditingChanged: ((Bool) -> Void)?
 	
 	@State private var showingCarousel = false
 	@State private var isEditing = false
+	
+	// MARK: - Init
 	
 	init(
 		icon: Image?,
@@ -27,7 +29,7 @@ struct HintTextField: View {
 		inactivePlaceholder: String,
 		activePlaceholder: String,
 		hints: [String],
-		startIndex: HintCarouselView.StartIndex = .first,
+		startIndex: HintsCarouselView.StartIndex = .first,
 		onEditingChanged: ((Bool) -> Void)? = nil
 	) {
 		self.icon = icon
@@ -38,6 +40,8 @@ struct HintTextField: View {
 		self.startIndex = startIndex
 		self.onEditingChanged = onEditingChanged
 	}
+	
+	// MARK: - Body
 	
     var body: some View {
 		HStack {
@@ -50,7 +54,7 @@ struct HintTextField: View {
 			
 			ZStack {
 				if showingCarousel {
-					HintCarouselView(
+					HintsCarouselView(
 						placeholder: activePlaceholder,
 						hints: hints,
 						startIndex: startIndex
@@ -76,10 +80,10 @@ struct HintTextField: View {
 			if showClearButton {
 				Button(action: clearText) {
 					Image(systemName: "xmark.circle.fill")
+						.foregroundStyle(.secondary)
 						.tint(.secondary)
 				}
 				.frame(width: 22, height: 22)
-				.animation(.default, value: text)
 				.transition(buttonTransition)
 			}
 		}
@@ -111,6 +115,8 @@ struct HintTextField: View {
 	}
 }
 
+// MARK: - Preview -
+
 #Preview {
 	HintTextFieldPreview()
 }
@@ -120,7 +126,7 @@ struct HintTextFieldPreview: View {
 	private let mock1: Mock = .shopping
 	
 	var body: some View {
-		HintTextField(
+		HintsTextField(
 			icon: .init(systemName: "magnifyingglass"),
 			text: $text1,
 			inactivePlaceholder: mock1.inactivePlaceholder,

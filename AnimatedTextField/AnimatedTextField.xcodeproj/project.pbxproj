@@ -7,30 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3742034B2A5168F400C233B6 /* AnimatedTextFieldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742034A2A5168F400C233B6 /* AnimatedTextFieldApp.swift */; };
-		3742034D2A5168F400C233B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742034C2A5168F400C233B6 /* ContentView.swift */; };
-		3742034F2A5168F500C233B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3742034E2A5168F500C233B6 /* Assets.xcassets */; };
-		374203522A5168F500C233B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 374203512A5168F500C233B6 /* Preview Assets.xcassets */; };
-		3742035D2A51696500C233B6 /* MockHintData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742035C2A51696500C233B6 /* MockHintData.swift */; };
-		3742035F2A516A4200C233B6 /* HintCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742035E2A516A4200C233B6 /* HintCarouselView.swift */; };
-		374203612A516E4200C233B6 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374203602A516E4200C233B6 /* String+.swift */; };
-		374203672A5173BA00C233B6 /* HintTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374203662A5173BA00C233B6 /* HintTextField.swift */; };
+		374203752A520EB700C233B6 /* AnimatedTextFieldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374203742A520EB700C233B6 /* AnimatedTextFieldApp.swift */; };
+		374203772A520EB700C233B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374203762A520EB700C233B6 /* ContentView.swift */; };
+		374203792A520EB800C233B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 374203782A520EB800C233B6 /* Assets.xcassets */; };
+		3742037C2A520EB800C233B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3742037B2A520EB800C233B6 /* Preview Assets.xcassets */; };
+		374203872A520F1100C233B6 /* MockHintData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374203862A520F1100C233B6 /* MockHintData.swift */; };
+		374203892A52184900C233B6 /* HintsCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374203882A52184900C233B6 /* HintsCarouselView.swift */; };
+		3742038B2A521B2400C233B6 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742038A2A521B2400C233B6 /* String+.swift */; };
+		3742038D2A52402C00C233B6 /* HintsTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742038C2A52402C00C233B6 /* HintsTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		374203472A5168F400C233B6 /* AnimatedTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3742034A2A5168F400C233B6 /* AnimatedTextFieldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTextFieldApp.swift; sourceTree = "<group>"; };
-		3742034C2A5168F400C233B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3742034E2A5168F500C233B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		374203512A5168F500C233B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3742035C2A51696500C233B6 /* MockHintData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHintData.swift; sourceTree = "<group>"; };
-		3742035E2A516A4200C233B6 /* HintCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintCarouselView.swift; sourceTree = "<group>"; };
-		374203602A516E4200C233B6 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
-		374203662A5173BA00C233B6 /* HintTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintTextField.swift; sourceTree = "<group>"; };
+		374203712A520EB700C233B6 /* AnimatedTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		374203742A520EB700C233B6 /* AnimatedTextFieldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTextFieldApp.swift; sourceTree = "<group>"; };
+		374203762A520EB700C233B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		374203782A520EB800C233B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3742037B2A520EB800C233B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		374203862A520F1100C233B6 /* MockHintData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHintData.swift; sourceTree = "<group>"; };
+		374203882A52184900C233B6 /* HintsCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintsCarouselView.swift; sourceTree = "<group>"; };
+		3742038A2A521B2400C233B6 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		3742038C2A52402C00C233B6 /* HintsTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintsTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		374203442A5168F400C233B6 /* Frameworks */ = {
+		3742036E2A520EB700C233B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,73 +40,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3742033E2A5168F400C233B6 = {
+		374203682A520EB700C233B6 = {
 			isa = PBXGroup;
 			children = (
-				374203492A5168F400C233B6 /* AnimatedTextField */,
-				374203482A5168F400C233B6 /* Products */,
+				374203732A520EB700C233B6 /* AnimatedTextField */,
+				374203722A520EB700C233B6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		374203482A5168F400C233B6 /* Products */ = {
+		374203722A520EB700C233B6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				374203472A5168F400C233B6 /* AnimatedTextField.app */,
+				374203712A520EB700C233B6 /* AnimatedTextField.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		374203492A5168F400C233B6 /* AnimatedTextField */ = {
+		374203732A520EB700C233B6 /* AnimatedTextField */ = {
 			isa = PBXGroup;
 			children = (
-				3742034A2A5168F400C233B6 /* AnimatedTextFieldApp.swift */,
-				3742034C2A5168F400C233B6 /* ContentView.swift */,
-				3742034E2A5168F500C233B6 /* Assets.xcassets */,
-				374203582A51690E00C233B6 /* Extensions */,
-				374203592A51691B00C233B6 /* Mock */,
-				374203502A5168F500C233B6 /* Preview Content */,
-				3742035A2A51692000C233B6 /* Screens */,
-				3742035B2A51692700C233B6 /* Views */,
+				374203742A520EB700C233B6 /* AnimatedTextFieldApp.swift */,
+				374203782A520EB800C233B6 /* Assets.xcassets */,
+				374203822A520ED300C233B6 /* Extensions */,
+				374203832A520EDA00C233B6 /* Mock */,
+				3742037A2A520EB800C233B6 /* Preview Content */,
+				374203842A520EE000C233B6 /* Screens */,
+				374203852A520EE700C233B6 /* Views */,
 			);
 			path = AnimatedTextField;
 			sourceTree = "<group>";
 		};
-		374203502A5168F500C233B6 /* Preview Content */ = {
+		3742037A2A520EB800C233B6 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				374203512A5168F500C233B6 /* Preview Assets.xcassets */,
+				3742037B2A520EB800C233B6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		374203582A51690E00C233B6 /* Extensions */ = {
+		374203822A520ED300C233B6 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				374203602A516E4200C233B6 /* String+.swift */,
+				3742038A2A521B2400C233B6 /* String+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		374203592A51691B00C233B6 /* Mock */ = {
+		374203832A520EDA00C233B6 /* Mock */ = {
 			isa = PBXGroup;
 			children = (
-				3742035C2A51696500C233B6 /* MockHintData.swift */,
+				374203862A520F1100C233B6 /* MockHintData.swift */,
 			);
 			path = Mock;
 			sourceTree = "<group>";
 		};
-		3742035A2A51692000C233B6 /* Screens */ = {
+		374203842A520EE000C233B6 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				374203762A520EB700C233B6 /* ContentView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
 		};
-		3742035B2A51692700C233B6 /* Views */ = {
+		374203852A520EE700C233B6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				3742035E2A516A4200C233B6 /* HintCarouselView.swift */,
-				374203662A5173BA00C233B6 /* HintTextField.swift */,
+				374203882A52184900C233B6 /* HintsCarouselView.swift */,
+				3742038C2A52402C00C233B6 /* HintsTextField.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -114,13 +114,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		374203462A5168F400C233B6 /* AnimatedTextField */ = {
+		374203702A520EB700C233B6 /* AnimatedTextField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 374203552A5168F500C233B6 /* Build configuration list for PBXNativeTarget "AnimatedTextField" */;
+			buildConfigurationList = 3742037F2A520EB800C233B6 /* Build configuration list for PBXNativeTarget "AnimatedTextField" */;
 			buildPhases = (
-				374203432A5168F400C233B6 /* Sources */,
-				374203442A5168F400C233B6 /* Frameworks */,
-				374203452A5168F400C233B6 /* Resources */,
+				3742036D2A520EB700C233B6 /* Sources */,
+				3742036E2A520EB700C233B6 /* Frameworks */,
+				3742036F2A520EB700C233B6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -128,25 +128,25 @@
 			);
 			name = AnimatedTextField;
 			productName = AnimatedTextField;
-			productReference = 374203472A5168F400C233B6 /* AnimatedTextField.app */;
+			productReference = 374203712A520EB700C233B6 /* AnimatedTextField.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3742033F2A5168F400C233B6 /* Project object */ = {
+		374203692A520EB700C233B6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					374203462A5168F400C233B6 = {
+					374203702A520EB700C233B6 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = 374203422A5168F400C233B6 /* Build configuration list for PBXProject "AnimatedTextField" */;
+			buildConfigurationList = 3742036C2A520EB700C233B6 /* Build configuration list for PBXProject "AnimatedTextField" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -154,46 +154,46 @@
 				en,
 				Base,
 			);
-			mainGroup = 3742033E2A5168F400C233B6;
-			productRefGroup = 374203482A5168F400C233B6 /* Products */;
+			mainGroup = 374203682A520EB700C233B6;
+			productRefGroup = 374203722A520EB700C233B6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				374203462A5168F400C233B6 /* AnimatedTextField */,
+				374203702A520EB700C233B6 /* AnimatedTextField */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		374203452A5168F400C233B6 /* Resources */ = {
+		3742036F2A520EB700C233B6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				374203522A5168F500C233B6 /* Preview Assets.xcassets in Resources */,
-				3742034F2A5168F500C233B6 /* Assets.xcassets in Resources */,
+				3742037C2A520EB800C233B6 /* Preview Assets.xcassets in Resources */,
+				374203792A520EB800C233B6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		374203432A5168F400C233B6 /* Sources */ = {
+		3742036D2A520EB700C233B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3742034D2A5168F400C233B6 /* ContentView.swift in Sources */,
-				3742035F2A516A4200C233B6 /* HintCarouselView.swift in Sources */,
-				374203612A516E4200C233B6 /* String+.swift in Sources */,
-				3742034B2A5168F400C233B6 /* AnimatedTextFieldApp.swift in Sources */,
-				374203672A5173BA00C233B6 /* HintTextField.swift in Sources */,
-				3742035D2A51696500C233B6 /* MockHintData.swift in Sources */,
+				3742038D2A52402C00C233B6 /* HintsTextField.swift in Sources */,
+				374203772A520EB700C233B6 /* ContentView.swift in Sources */,
+				374203892A52184900C233B6 /* HintsCarouselView.swift in Sources */,
+				3742038B2A521B2400C233B6 /* String+.swift in Sources */,
+				374203752A520EB700C233B6 /* AnimatedTextFieldApp.swift in Sources */,
+				374203872A520F1100C233B6 /* MockHintData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		374203532A5168F500C233B6 /* Debug */ = {
+		3742037D2A520EB800C233B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,7 +256,7 @@
 			};
 			name = Debug;
 		};
-		374203542A5168F500C233B6 /* Release */ = {
+		3742037E2A520EB800C233B6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -312,7 +312,7 @@
 			};
 			name = Release;
 		};
-		374203562A5168F500C233B6 /* Debug */ = {
+		374203802A520EB800C233B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -341,7 +341,7 @@
 			};
 			name = Debug;
 		};
-		374203572A5168F500C233B6 /* Release */ = {
+		374203812A520EB800C233B6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -373,25 +373,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		374203422A5168F400C233B6 /* Build configuration list for PBXProject "AnimatedTextField" */ = {
+		3742036C2A520EB700C233B6 /* Build configuration list for PBXProject "AnimatedTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				374203532A5168F500C233B6 /* Debug */,
-				374203542A5168F500C233B6 /* Release */,
+				3742037D2A520EB800C233B6 /* Debug */,
+				3742037E2A520EB800C233B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		374203552A5168F500C233B6 /* Build configuration list for PBXNativeTarget "AnimatedTextField" */ = {
+		3742037F2A520EB800C233B6 /* Build configuration list for PBXNativeTarget "AnimatedTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				374203562A5168F500C233B6 /* Debug */,
-				374203572A5168F500C233B6 /* Release */,
+				374203802A520EB800C233B6 /* Debug */,
+				374203812A520EB800C233B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3742033F2A5168F400C233B6 /* Project object */;
+	rootObject = 374203692A520EB700C233B6 /* Project object */;
 }

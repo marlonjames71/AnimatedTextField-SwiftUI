@@ -1,5 +1,5 @@
 //
-//  HintCarouselView.swift
+//  HintsCarouselView.swift
 //  AnimatedTextField
 //
 //  Created by Marlon Raskin on 2023-07-02.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HintCarouselView: View {
+struct HintsCarouselView: View {
 	
 	private let placeholder: String?
 	private let hints: [String]
@@ -76,10 +76,14 @@ struct HintCarouselView: View {
 	}
 }
 
+// MARK: - Preview -
+
 #Preview {
-	HintCarouselView(
-		placeholder: "Search",
-		hints: MockHints.shopping,
-		startIndex: .first
-	)
+	VStack {
+		HintsCarouselView(
+			placeholder: "Search",
+			hints: MockHints.shopping,
+			startIndex: .first
+		)
+	}
 }
